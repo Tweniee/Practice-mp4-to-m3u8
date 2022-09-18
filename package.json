@@ -1,0 +1,26 @@
+{
+  "name": "assignment4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^1.4.1",
+    "@types/fluent-ffmpeg": "^2.1.20",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "network-speed": "^2.1.1",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.8.3"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
